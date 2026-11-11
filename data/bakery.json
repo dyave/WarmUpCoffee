@@ -1,0 +1,14 @@
+[
+  { "id": "bak-001", "name": "Butter Croissant", "description": "Flaky, golden layers of laminated dough made with French butter.", "price": 2.20 },
+  { "id": "bak-002", "name": "Pain au Chocolat", "description": "Buttery croissant dough wrapped around two bars of dark chocolate.", "price": 2.60 },
+  { "id": "bak-003", "name": "Almond Croissant", "description": "Twice-baked croissant filled with almond cream and topped with sliced almonds.", "price": 3.10 },
+  { "id": "bak-004", "name": "Blueberry Muffin", "description": "Soft, moist muffin packed with blueberries and a crunchy sugar top.", "price": 2.80 },
+  { "id": "bak-005", "name": "Cinnamon Roll", "description": "Swirled sweet dough with cinnamon sugar, finished with cream-cheese icing.", "price": 3.40 },
+  { "id": "bak-006", "name": "Banana Bread Slice", "description": "Thick slice of homemade banana bread with a hint of walnut.", "price": 2.90 },
+  { "id": "bak-007", "name": "Scone with Jam", "description": "Classic buttermilk scone served with strawberry jam and clotted cream.", "price": 3.20 },
+  { "id": "bak-008", "name": "Chocolate Chip Cookie", "description": "Chewy cookie loaded with milk and dark chocolate chunks.", "price": 1.90 },
+  { "id": "bak-009", "name": "Carrot Cake Slice", "description": "Spiced carrot cake with walnuts and a smooth cream-cheese frosting.", "price": 3.80 },
+  { "id": "bak-010", "name": "Lemon Drizzle Loaf", "description": "Zesty lemon sponge soaked in a tangy lemon syrup glaze.", "price": 3.00 },
+  { "id": "bak-011", "name": "Brownie", "description": "Fudgy dark chocolate brownie with a crackly top.", "price": 2.70 },
+  { "id": "bak-012", "name": "Cheese & Ham Croissant", "description": "Savoury croissant filled with cooked ham and melted Emmental.", "price": 3.90 }
+]

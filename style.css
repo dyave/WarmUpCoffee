@@ -1,0 +1,34 @@
+:root {
+  --bg: #faf6f1;
+  --card: #ffffff;
+  --ink: #3b2a20;
+  --muted: #7a6656;
+  --accent: #a0522d;
+  --line: #eadfd4;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.5;
+}
+.header { text-align: center; padding: 3rem 1rem 1.5rem; }
+.header h1 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: 2.6rem; letter-spacing: .5px; }
+.tagline { margin: .25rem 0 0; color: var(--muted); }
+.menu { max-width: 1000px; margin: 0 auto; padding: 0 1rem 3rem; }
+.section { margin-top: 2rem; }
+.section-title {
+  font-family: Georgia, serif; font-size: 1.5rem; margin: 0 0 1rem;
+  padding-bottom: .5rem; border-bottom: 2px solid var(--line);
+}
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.1rem; }
+.card-head { display: flex; justify-content: space-between; align-items: baseline; gap: .75rem; }
+.card-name { margin: 0; font-size: 1.05rem; }
+.card-price { color: var(--accent); font-weight: 600; white-space: nowrap; }
+.card-desc { margin: .4rem 0 0; color: var(--muted); font-size: .95rem; }
+.status { color: var(--muted); font-style: italic; }
+.status.error { color: #b3261e; font-style: normal; }
+.footer { text-align: center; color: var(--muted); font-size: .85rem; padding: 1.5rem; }
