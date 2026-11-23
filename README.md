@@ -1,6 +1,6 @@
-# Warm-up Coffee
+# WarmUpCoffee
 
-**ComfyCoffee**: a simple web app that shows a coffee shop's products (name, description, price).
+**WarmUpCoffee**: a simple web app that shows a coffee shop's products (name, description, price).
 
 ## Run it
 
