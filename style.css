@@ -32,3 +32,12 @@ body {
 .status { color: var(--muted); font-style: italic; }
 .status.error { color: #b3261e; font-style: normal; }
 .footer { text-align: center; color: var(--muted); font-size: .85rem; padding: 1.5rem; }
+.group { margin-top: 1.25rem; }
+.group-head { display: flex; align-items: baseline; justify-content: space-between; gap: .75rem; flex-wrap: wrap; }
+.group-title { margin: 0; font-size: 1.15rem; color: var(--accent); }
+.group-count { color: var(--muted); font-size: .9rem; }
+.group-note { margin: .15rem 0 .75rem; color: var(--muted); font-size: .85rem; }
+.category-title { margin: 1.25rem 0 .6rem; font-size: 1rem; color: var(--ink); }
+.card-price.missing { color: var(--muted); font-weight: 400; font-size: .85rem; font-style: italic; }
+.tags { display: flex; flex-wrap: wrap; gap: .35rem; margin-top: .5rem; }
+.tag { font-size: .75rem; padding: .1rem .5rem; border-radius: 999px; background: var(--bg); border: 1px solid var(--line); color: var(--muted); }

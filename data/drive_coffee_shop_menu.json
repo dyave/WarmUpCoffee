@@ -1,0 +1,50 @@
+[
+  {
+    "ID": "DRK-001",
+    "Name": "Espresso",
+    "Description": "A single shot of rich, concentrated coffee.",
+    "IsAvailable": true
+  },
+  {
+    "ID": "DRK-002",
+    "Name": "Iced Matcha Latte",
+    "Description": "Matcha blended with milk and served over ice.",
+    "IsAvailable": true
+  },
+  {
+    "ID": "DRK-003",
+    "Name": "Cappuccino",
+    "Description": "Espresso topped with steamed milk and a layer of foam.",
+    "IsAvailable": true
+  },
+  {
+    "ID": "DRK-004",
+    "Name": "Caffè Latte",
+    "Description": "Espresso combined with steamed milk and a light layer of foam.",
+    "IsAvailable": true
+  },
+  {
+    "ID": "DRK-005",
+    "Name": "Americano",
+    "Description": "Espresso diluted with hot water for a smooth, full-bodied coffee.",
+    "IsAvailable": true
+  },
+  {
+    "ID": "DRK-006",
+    "Name": "Mocha",
+    "Description": "Espresso and steamed milk with chocolate, finished with foam.",
+    "IsAvailable": true
+  },
+  {
+    "ID": "DRK-007",
+    "Name": "Cold Brew",
+    "Description": "Coffee steeped slowly in cold water and served chilled.",
+    "IsAvailable": true
+  },
+  {
+    "ID": "DRK-008",
+    "Name": "Hot Chocolate",
+    "Description": "Steamed milk blended with chocolate for a rich, comforting drink.",
+    "IsAvailable": true
+  }
+]

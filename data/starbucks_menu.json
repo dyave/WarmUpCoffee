@@ -1,0 +1,3350 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "country": "ES",
+    "language": "es-ES",
+    "currency": "EUR",
+    "source": "https://www.starbucks.es/menu/",
+    "collected_on": "2026-11-12",
+    "notes": [
+      "Product names are kept exactly as published on starbucks.es, including typos.",
+      "starbucks.es publishes no prices, sizes or calories; those fields are null/empty until collected.",
+      "seasonal, temperature and tags are derived from product names, not published by Starbucks.",
+      "Products listed in several categories appear once, with all category ids in 'categories'.",
+      "Merchandise is not included."
+    ]
+  },
+  "sections": [
+    {
+      "id": "bebidas",
+      "name": "Bebidas",
+      "name_en": "Drinks",
+      "categories": [
+        {
+          "id": "espresso-drinks",
+          "name": "Bebidas Espresso",
+          "source_url": "https://www.starbucks.es/menu/bebidas/espresso-drinks"
+        },
+        {
+          "id": "iced-coffee-cold-brew",
+          "name": "Iced Coffee & Cold Brew",
+          "source_url": "https://www.starbucks.es/menu/bebidas/iced-coffee-cold-brew"
+        },
+        {
+          "id": "matcha",
+          "name": "Matcha",
+          "source_url": "https://www.starbucks.es/menu/bebidas/matcha"
+        },
+        {
+          "id": "chocolate",
+          "name": "Chocolate",
+          "source_url": "https://www.starbucks.es/menu/bebidas/chocolate"
+        },
+        {
+          "id": "hot-tea",
+          "name": "Bebidas de té",
+          "source_url": "https://www.starbucks.es/menu/bebidas/hot-tea"
+        },
+        {
+          "id": "iced-tea",
+          "name": "Iced Tea",
+          "source_url": "https://www.starbucks.es/menu/bebidas/iced-tea"
+        },
+        {
+          "id": "refresha",
+          "name": "Refresha®",
+          "source_url": "https://www.starbucks.es/menu/bebidas/starbucks-refreshar-beverage"
+        },
+        {
+          "id": "frappuccino",
+          "name": "Frappuccino®",
+          "source_url": "https://www.starbucks.es/menu/bebidas/frappuccinor-blended-beverages"
+        },
+        {
+          "id": "zumo-de-naranja",
+          "name": "Zumo de Naranja",
+          "source_url": "https://www.starbucks.es/menu/bebidas/zumo-de-naranja"
+        },
+        {
+          "id": "ready-to-drink",
+          "name": "Ready To Drink",
+          "source_url": "https://www.starbucks.es/menu/bebidas/ready-to-drink"
+        }
+      ]
+    },
+    {
+      "id": "comida",
+      "name": "Comida",
+      "name_en": "Food",
+      "categories": [
+        {
+          "id": "bakery",
+          "name": "Bakery",
+          "source_url": "https://www.starbucks.es/menu/comida/bakery"
+        },
+        {
+          "id": "sandwiches",
+          "name": "Sándwiches o bocadillos",
+          "source_url": "https://www.starbucks.es/menu/comida/sandwiches-o-bocadillos-"
+        },
+        {
+          "id": "muffins",
+          "name": "Muffins",
+          "source_url": "https://www.starbucks.es/menu/comida/muffins"
+        },
+        {
+          "id": "cakes",
+          "name": "Cakes",
+          "source_url": "https://www.starbucks.es/menu/comida/cakes"
+        },
+        {
+          "id": "glaseados",
+          "name": "Glaseados",
+          "source_url": "https://www.starbucks.es/menu/comida/glaseados"
+        },
+        {
+          "id": "cookies",
+          "name": "Cookies",
+          "source_url": "https://www.starbucks.es/menu/comida/cookies"
+        },
+        {
+          "id": "snacks",
+          "name": "Snacks",
+          "source_url": "https://www.starbucks.es/menu/comida/snacks"
+        },
+        {
+          "id": "gluten-free",
+          "name": "Gluten Free",
+          "source_url": "https://www.starbucks.es/menu/comida/gluten-free-"
+        },
+        {
+          "id": "fruit-and-yoghurt",
+          "name": "Fruit and Yoghurt",
+          "source_url": "https://www.starbucks.es/menu/comida/fruit-and-yoghurt-"
+        },
+        {
+          "id": "ensaladas-y-dips",
+          "name": "Ensaladas y DIPS",
+          "source_url": "https://www.starbucks.es/menu/comida/ensaladas-y-dips-"
+        }
+      ]
+    },
+    {
+      "id": "cafe-en-casa",
+      "name": "Café en Casa",
+      "name_en": "Coffee at home",
+      "categories": [
+        {
+          "id": "whole-bean",
+          "name": "Café en grano",
+          "source_url": "https://www.starbucks.es/menu/cafe-en-casa/whole-bean"
+        },
+        {
+          "id": "capsulas",
+          "name": "Cápsulas de café",
+          "source_url": "https://www.starbucks.es/menu/cafe-en-casa/capsulas-de-cafe-"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "toffee-nut-latte",
+      "name": "Toffee Nut Latte",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Latte",
+      "temperature": "hot",
+      "seasonal": true,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "iced-toffee-nut-latte",
+      "name": "Iced Toffee Nut Latte",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Latte",
+      "temperature": "cold",
+      "seasonal": true,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "gingerbread-latte",
+      "name": "Gingerbread Latte",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Latte",
+      "temperature": "hot",
+      "seasonal": true,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "iced-gingerbread-latte",
+      "name": "Iced Gingerbread Latte",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Latte",
+      "temperature": "cold",
+      "seasonal": true,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "pumpkin-spice-latte",
+      "name": "Pumpkin Spice Latte",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Latte",
+      "temperature": "hot",
+      "seasonal": true,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "iced-pumpkin-spice-latte",
+      "name": "Iced Pumpkin Spice Latte",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Latte",
+      "temperature": "cold",
+      "seasonal": true,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "latte",
+      "name": "Latte",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Latte",
+      "temperature": "hot",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "iced-latte",
+      "name": "Iced Latte",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Latte",
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "peppermint-mocha",
+      "name": "Peppermint Mocha",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Mocha",
+      "temperature": "hot",
+      "seasonal": true,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "iced-peppermint-mocha",
+      "name": "Iced Peppermint Mocha",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Mocha",
+      "temperature": "cold",
+      "seasonal": true,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "mocha",
+      "name": "Mocha",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Mocha",
+      "temperature": "hot",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "iced-mocha",
+      "name": "Iced Mocha",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Mocha",
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "white-mocha",
+      "name": "White Mocha",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Mocha",
+      "temperature": "hot",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "iced-white-mocha",
+      "name": "Iced White Mocha",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Mocha",
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "latte-macchiato",
+      "name": "Latte Macchiato",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Macchiato",
+      "temperature": "hot",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "iced-latte-macchiato",
+      "name": "Iced Latte Macchiato",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Macchiato",
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "caramel-macchiato",
+      "name": "Caramel Macchiato",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Macchiato",
+      "temperature": "hot",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "iced-caramel-macchiato",
+      "name": "Iced Caramel Macchiato",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Macchiato",
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "cappuccino",
+      "name": "Cappuccino",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Cappuccino",
+      "temperature": "hot",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "iced-cappuccino",
+      "name": "Iced Cappuccino",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Cappuccino",
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "americano",
+      "name": "Americano",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Americano",
+      "temperature": "hot",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "iced-americano",
+      "name": "Iced Americano",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Americano",
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "doppio-espresso",
+      "name": "Doppio Espresso",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Espresso",
+      "temperature": "hot",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "doppio-macchiato",
+      "name": "Doppio Macchiato",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Espresso",
+      "temperature": "hot",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "espresso-con-panna-frs-mop",
+      "name": "Espresso Con Panna FRS - MOP",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Espresso",
+      "temperature": "hot",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "iced-blonde-brown-sugar-oat-shaken-espresso",
+      "name": "Iced Blonde Brown Sugar Oat Shaken Espresso",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Espresso",
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [
+        "plant-based-milk"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "coffee-traveler",
+      "name": "Coffee Traveler",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Espresso",
+      "temperature": "hot",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "coffee-press-8c-espresso",
+      "name": "Coffee Press 8C Espresso",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Espresso",
+      "temperature": "hot",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "coffee-press-8c-pike-place",
+      "name": "Coffee Press 8C Pike Place",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Espresso",
+      "temperature": "hot",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "coffee-press-8c-houseblend",
+      "name": "Coffee Press 8C Houseblend",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Espresso",
+      "temperature": "hot",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "coffee-press-8c-columbia",
+      "name": "Coffee Press 8C Columbia",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Espresso",
+      "temperature": "hot",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "coffee-press-8c-ethiopia",
+      "name": "Coffee Press 8C Ethiopia",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Espresso",
+      "temperature": "hot",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "coffee-press-8c-sumatra",
+      "name": "Coffee Press 8C Sumatra",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Espresso",
+      "temperature": "hot",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "coffee-press-8c-guatemala",
+      "name": "Coffee Press 8C Guatemala",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Espresso",
+      "temperature": "hot",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "flat-white",
+      "name": "Flat White",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Flat White & Cortado",
+      "temperature": "hot",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "cortado",
+      "name": "Cortado",
+      "section": "bebidas",
+      "categories": [
+        "espresso-drinks"
+      ],
+      "subgroup": "Flat White & Cortado",
+      "temperature": "hot",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "cold-brew",
+      "name": "Cold Brew",
+      "section": "bebidas",
+      "categories": [
+        "iced-coffee-cold-brew"
+      ],
+      "subgroup": null,
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "cold-brew-latte",
+      "name": "Cold Brew Latte",
+      "section": "bebidas",
+      "categories": [
+        "iced-coffee-cold-brew"
+      ],
+      "subgroup": null,
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "toffee-nut-matcha-latte",
+      "name": "Toffee Nut Matcha Latte",
+      "section": "bebidas",
+      "categories": [
+        "matcha"
+      ],
+      "subgroup": null,
+      "temperature": "hot",
+      "seasonal": true,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "toffee-nut-cream-iced-matcha-latte",
+      "name": "Toffee Nut Cream Iced Matcha Latte",
+      "section": "bebidas",
+      "categories": [
+        "matcha"
+      ],
+      "subgroup": null,
+      "temperature": "cold",
+      "seasonal": true,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "gingerbread-matcha-latte",
+      "name": "Gingerbread Matcha Latte",
+      "section": "bebidas",
+      "categories": [
+        "matcha"
+      ],
+      "subgroup": null,
+      "temperature": "hot",
+      "seasonal": true,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "gingerbread-cream-iced-matcha-latte",
+      "name": "Gingerbread Cream Iced Matcha Latte",
+      "section": "bebidas",
+      "categories": [
+        "matcha"
+      ],
+      "subgroup": null,
+      "temperature": "cold",
+      "seasonal": true,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "iced-peppermint-white-chocolate-matcha",
+      "name": "Iced Peppermint White Chocolate Matcha",
+      "section": "bebidas",
+      "categories": [
+        "matcha"
+      ],
+      "subgroup": null,
+      "temperature": "cold",
+      "seasonal": true,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "matcha-green-tea-latte",
+      "name": "Matcha Green Tea Latte",
+      "section": "bebidas",
+      "categories": [
+        "matcha",
+        "hot-tea"
+      ],
+      "subgroup": null,
+      "temperature": "hot",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "matcha-cream-frappuccino",
+      "name": "Matcha Cream Frappuccino",
+      "section": "bebidas",
+      "categories": [
+        "matcha",
+        "frappuccino"
+      ],
+      "subgroup": null,
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "iced-matcha-green-tea-latte",
+      "name": "Iced Matcha Green Tea Latte",
+      "section": "bebidas",
+      "categories": [
+        "matcha",
+        "iced-tea"
+      ],
+      "subgroup": null,
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "peppermint-hot-chocolate",
+      "name": "Peppermint Hot Chocolate",
+      "section": "bebidas",
+      "categories": [
+        "chocolate"
+      ],
+      "subgroup": "Hot Chocolate",
+      "temperature": "hot",
+      "seasonal": true,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "peppermint-iced-chocolate",
+      "name": "Peppermint Iced Chocolate",
+      "section": "bebidas",
+      "categories": [
+        "chocolate"
+      ],
+      "subgroup": "Hot Chocolate",
+      "temperature": "cold",
+      "seasonal": true,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "signature-hot-chocolate",
+      "name": "Signature Hot Chocolate",
+      "section": "bebidas",
+      "categories": [
+        "chocolate"
+      ],
+      "subgroup": "Hot Chocolate",
+      "temperature": "hot",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "english-breakfast",
+      "name": "English Breakfast",
+      "section": "bebidas",
+      "categories": [
+        "hot-tea"
+      ],
+      "subgroup": "Brewed Tea",
+      "temperature": "hot",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "earl-grey",
+      "name": "Earl Grey",
+      "section": "bebidas",
+      "categories": [
+        "hot-tea"
+      ],
+      "subgroup": "Brewed Tea",
+      "temperature": "hot",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "mint-blend",
+      "name": "Mint Blend",
+      "section": "bebidas",
+      "categories": [
+        "hot-tea"
+      ],
+      "subgroup": "Brewed Tea",
+      "temperature": "hot",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "emperor-s-clouds-mist",
+      "name": "Emperor's Clouds & Mist",
+      "section": "bebidas",
+      "categories": [
+        "hot-tea"
+      ],
+      "subgroup": "Brewed Tea",
+      "temperature": "hot",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "pumpkin-spice-matcha-latte",
+      "name": "Pumpkin Spice Matcha Latte",
+      "section": "bebidas",
+      "categories": [
+        "hot-tea"
+      ],
+      "subgroup": "Tea Latte",
+      "temperature": "hot",
+      "seasonal": true,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "chai-tea-latte",
+      "name": "Chai Tea Latte",
+      "section": "bebidas",
+      "categories": [
+        "hot-tea"
+      ],
+      "subgroup": "Tea Latte",
+      "temperature": "hot",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "peach-iced-tea",
+      "name": "Peach Iced Tea",
+      "section": "bebidas",
+      "categories": [
+        "iced-tea"
+      ],
+      "subgroup": "Iced Tea",
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "iced-pumpkin-spice-matcha-latte",
+      "name": "Iced Pumpkin Spice Matcha Latte",
+      "section": "bebidas",
+      "categories": [
+        "iced-tea"
+      ],
+      "subgroup": "Iced Tea Latte",
+      "temperature": "cold",
+      "seasonal": true,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "iced-chai-tea-latte",
+      "name": "Iced Chai Tea Latte",
+      "section": "bebidas",
+      "categories": [
+        "iced-tea"
+      ],
+      "subgroup": "Iced Tea Latte",
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "cool-lime-starbucks-refresha",
+      "name": "Cool Lime Starbucks Refresha®",
+      "section": "bebidas",
+      "categories": [
+        "refresha"
+      ],
+      "subgroup": null,
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "mango-dragonfruit-starbucks-refresha",
+      "name": "Mango Dragonfruit Starbucks Refresha",
+      "section": "bebidas",
+      "categories": [
+        "refresha"
+      ],
+      "subgroup": null,
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "strawberry-acai-starbucks-refresha",
+      "name": "Strawberry Acai Starbucks Refresha®",
+      "section": "bebidas",
+      "categories": [
+        "refresha"
+      ],
+      "subgroup": null,
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "toffee-nut-frappuccino",
+      "name": "Toffee Nut Frappuccino®",
+      "section": "bebidas",
+      "categories": [
+        "frappuccino"
+      ],
+      "subgroup": "Coffee Frappuccino®",
+      "temperature": "cold",
+      "seasonal": true,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "gingerbread-frappuccino",
+      "name": "Gingerbread Frappuccino®",
+      "section": "bebidas",
+      "categories": [
+        "frappuccino"
+      ],
+      "subgroup": "Coffee Frappuccino®",
+      "temperature": "cold",
+      "seasonal": true,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "pumpkin-spice-frappuccino",
+      "name": "Pumpkin Spice Frappuccino",
+      "section": "bebidas",
+      "categories": [
+        "frappuccino"
+      ],
+      "subgroup": "Coffee Frappuccino®",
+      "temperature": "cold",
+      "seasonal": true,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "java-chip-frappuccino",
+      "name": "Java Chip Frappuccino®",
+      "section": "bebidas",
+      "categories": [
+        "frappuccino"
+      ],
+      "subgroup": "Coffee Frappuccino®",
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "coffee-frappuccino",
+      "name": "Coffee Frappuccino®",
+      "section": "bebidas",
+      "categories": [
+        "frappuccino"
+      ],
+      "subgroup": "Coffee Frappuccino®",
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "caramel-frappuccino",
+      "name": "Caramel Frappuccino®",
+      "section": "bebidas",
+      "categories": [
+        "frappuccino"
+      ],
+      "subgroup": "Coffee Frappuccino®",
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "mocha-frappuccino",
+      "name": "Mocha Frappuccino®",
+      "section": "bebidas",
+      "categories": [
+        "frappuccino"
+      ],
+      "subgroup": "Coffee Frappuccino®",
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "white-mocha-frappuccino",
+      "name": "White Mocha Frappuccino®",
+      "section": "bebidas",
+      "categories": [
+        "frappuccino"
+      ],
+      "subgroup": "Coffee Frappuccino®",
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "toffee-nut-creme-frappuccino",
+      "name": "Toffee Nut Creme Frappuccino®",
+      "section": "bebidas",
+      "categories": [
+        "frappuccino"
+      ],
+      "subgroup": "Cream Frappuccino®",
+      "temperature": "cold",
+      "seasonal": true,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "gingerbread-creme-frappuccino",
+      "name": "Gingerbread Creme Frappuccino®",
+      "section": "bebidas",
+      "categories": [
+        "frappuccino"
+      ],
+      "subgroup": "Cream Frappuccino®",
+      "temperature": "cold",
+      "seasonal": true,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "pumpkin-spice-cream-frappuccino",
+      "name": "Pumpkin Spice Cream Frappuccino",
+      "section": "bebidas",
+      "categories": [
+        "frappuccino"
+      ],
+      "subgroup": "Cream Frappuccino®",
+      "temperature": "cold",
+      "seasonal": true,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "cookies-cream-frappuccino",
+      "name": "Cookies & Cream Frappuccino",
+      "section": "bebidas",
+      "categories": [
+        "frappuccino"
+      ],
+      "subgroup": "Cream Frappuccino®",
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "caramel-cream-frappuccino",
+      "name": "Caramel Cream Frappuccino®",
+      "section": "bebidas",
+      "categories": [
+        "frappuccino"
+      ],
+      "subgroup": "Cream Frappuccino®",
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "chocolate-cream-frappuccino",
+      "name": "Chocolate Cream Frappuccino",
+      "section": "bebidas",
+      "categories": [
+        "frappuccino"
+      ],
+      "subgroup": "Cream Frappuccino®",
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "chocolate-chip-cream-frappuccino",
+      "name": "Chocolate Chip Cream Frappuccino",
+      "section": "bebidas",
+      "categories": [
+        "frappuccino"
+      ],
+      "subgroup": "Cream Frappuccino®",
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "white-chocolate-cream-frappuccino",
+      "name": "White Chocolate Cream Frappuccino",
+      "section": "bebidas",
+      "categories": [
+        "frappuccino"
+      ],
+      "subgroup": "Cream Frappuccino®",
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "vanilla-cream-frappuccino",
+      "name": "Vanilla Cream Frappuccino",
+      "section": "bebidas",
+      "categories": [
+        "frappuccino"
+      ],
+      "subgroup": "Cream Frappuccino®",
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "strawberries-cream-frappuccino",
+      "name": "Strawberries & Cream Frappuccino",
+      "section": "bebidas",
+      "categories": [
+        "frappuccino"
+      ],
+      "subgroup": "Cream Frappuccino®",
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "chai-tea-cream-frappuccino",
+      "name": "Chai Tea Cream Frappuccino",
+      "section": "bebidas",
+      "categories": [
+        "frappuccino"
+      ],
+      "subgroup": "Cream Frappuccino®",
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "fresh-orange-juice",
+      "name": "Fresh Orange Juice",
+      "section": "bebidas",
+      "categories": [
+        "zumo-de-naranja"
+      ],
+      "subgroup": null,
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "agua-solan75-cl",
+      "name": "Agua Solan75 cl.",
+      "section": "bebidas",
+      "categories": [
+        "ready-to-drink"
+      ],
+      "subgroup": "Waters",
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "yuzz",
+      "name": "Yuzz",
+      "section": "bebidas",
+      "categories": [
+        "ready-to-drink"
+      ],
+      "subgroup": "Juices",
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "kombucha-berry",
+      "name": "Kombucha Berry",
+      "section": "bebidas",
+      "categories": [
+        "ready-to-drink"
+      ],
+      "subgroup": "Juices",
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "ginger-shot",
+      "name": "Ginger Shot",
+      "section": "bebidas",
+      "categories": [
+        "ready-to-drink"
+      ],
+      "subgroup": "Juices",
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "limonada",
+      "name": "Limonada",
+      "section": "bebidas",
+      "categories": [
+        "ready-to-drink"
+      ],
+      "subgroup": "Juices",
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "san-pellegrino-naranja",
+      "name": "San Pellegrino Naranja",
+      "section": "bebidas",
+      "categories": [
+        "ready-to-drink"
+      ],
+      "subgroup": "Juices",
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "san-pelegrino-50cl",
+      "name": "San Pelegrino 50cl",
+      "section": "bebidas",
+      "categories": [
+        "ready-to-drink"
+      ],
+      "subgroup": "Juices",
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "smoothie-frutas-tropicales",
+      "name": "Smoothie frutas tropicales",
+      "section": "bebidas",
+      "categories": [
+        "ready-to-drink"
+      ],
+      "subgroup": "Smoothies",
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "smoothie-apple-raspberry",
+      "name": "Smoothie Apple raspberry",
+      "section": "bebidas",
+      "categories": [
+        "ready-to-drink"
+      ],
+      "subgroup": "Smoothies",
+      "temperature": "cold",
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "christmas-tree",
+      "name": "Christmas Tree",
+      "section": "comida",
+      "categories": [
+        "bakery"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": true,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "salted-caramel-muffin",
+      "name": "Salted Caramel Muffin",
+      "section": "comida",
+      "categories": [
+        "bakery"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "hojaldre-de-manzana",
+      "name": "Hojaldre de manzana",
+      "section": "comida",
+      "categories": [
+        "bakery"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "cruffin-pistacho",
+      "name": "Cruffin Pistacho",
+      "section": "comida",
+      "categories": [
+        "bakery"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "rasberry-cake",
+      "name": "Rasberry Cake",
+      "section": "comida",
+      "categories": [
+        "bakery"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "croissant",
+      "name": "Croissant",
+      "section": "comida",
+      "categories": [
+        "bakery"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "croissant-jamon-y-queso",
+      "name": "Croissant Jamón y Queso",
+      "section": "comida",
+      "categories": [
+        "bakery"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [
+        "contains-meat"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "cinnamon-roll",
+      "name": "Cinnamon Roll",
+      "section": "comida",
+      "categories": [
+        "bakery"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "napolitana",
+      "name": "Napolitana",
+      "section": "comida",
+      "categories": [
+        "bakery"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "brownie-doble-chocolate",
+      "name": "Brownie doble chocolate",
+      "section": "comida",
+      "categories": [
+        "bakery"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "croissant-con-mermelada-y-mantequilla",
+      "name": "Croissant con mermelada y mantequilla",
+      "section": "comida",
+      "categories": [
+        "bakery"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "croissant-con-queso-crema",
+      "name": "Croissant con queso crema",
+      "section": "comida",
+      "categories": [
+        "bakery"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "croissant-multicereal-con-mermelada-y-mantequilla",
+      "name": "Croissant multicereal con mermelada y mantequilla",
+      "section": "comida",
+      "categories": [
+        "bakery"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "croissant-con-mermelada-de-frambuesa",
+      "name": "Croissant con mermelada de frambuesa",
+      "section": "comida",
+      "categories": [
+        "bakery"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "brookie-de-chocolate-y-avellana",
+      "name": "Brookie de Chocolate y Avellana",
+      "section": "comida",
+      "categories": [
+        "bakery"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "toastie-5-quesos",
+      "name": "Toastie 5 Quesos",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "bagel-de-jamon-y-queso-con-huevo",
+      "name": "Bagel de jamón y queso con huevo",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [
+        "contains-meat"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "bagel-de-salmon-y-queso-crema",
+      "name": "Bagel de salmón y queso crema",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [
+        "contains-fish"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "brioche-de-pollo-asado",
+      "name": "Brioche de pollo asado",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [
+        "contains-meat"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "brioche-de-pavo-y-frambuesa",
+      "name": "Brioche de pavo y frambuesa",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [
+        "contains-meat"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "bagel-huevo-bacon",
+      "name": "BAGEL HUEVO & BACON",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [
+        "contains-meat"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "sandwich-pollo-gluten-free",
+      "name": "Sándwich Pollo Gluten Free",
+      "section": "comida",
+      "categories": [
+        "sandwiches",
+        "gluten-free"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [
+        "gluten-free",
+        "contains-meat"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "egg-sandwich",
+      "name": "Egg Sandwich",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "foccacia-pollo",
+      "name": "Foccacia Pollo",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [
+        "contains-meat"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "focaccia-mortadela",
+      "name": "Focaccia  Mortadela",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [
+        "contains-meat"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "focaccia-pastrami",
+      "name": "Focaccia Pastrami",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [
+        "contains-meat"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "focaccia-jamon-y-camembert",
+      "name": "Focaccia Jamon Y Camembert",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [
+        "contains-meat"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "bloomer-pavo-arandanos",
+      "name": "Bloomer Pavo Arándanos",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [
+        "contains-meat"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "bocadillo-jamon-iberico",
+      "name": "Bocadillo Jamón Ibérico",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [
+        "contains-meat"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "bocadillo-jamon-iberico-y-queso-manchego",
+      "name": "Bocadillo jamón ibérico y queso manchego",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [
+        "contains-meat"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "bagel-salmon-y-aguacate",
+      "name": "Bagel Salmón y Aguacate",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [
+        "contains-fish"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "bagel-brioche-con-aceite",
+      "name": "Bagel Brioche con aceite",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "bagel-brioche-con-tomate",
+      "name": "Bagel Brioche con tomate",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "bagel-brioche-mermelada-y-mantequilla",
+      "name": "Bagel Brioche mermelada y mantequilla",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "bagel-brioche-con-jamon-iberico-y-tomate",
+      "name": "Bagel brioche con jamón ibérico y tomate",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [
+        "contains-meat"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "bagel-brioche-con-queso-crema",
+      "name": "Bagel Brioche con queso crema",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "bagel-de-cereales-con-aceite",
+      "name": "Bagel de cereales con aceíte",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "bagel-de-cereales-con-tomate",
+      "name": "Bagel de cereales con tomate",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "bagel-brioche-mermelada-y-mantequilla-2",
+      "name": "Bagel Brioche mermelada y mantequilla",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "bagel-de-cereales-con-jamon-iberico-y-tomate",
+      "name": "Bagel de cereales con jamón ibérico y tomate",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [
+        "contains-meat"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "bagel-de-cereales-con-queso-crema",
+      "name": "Bagel de cereales con queso crema",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "tostada-multicereal-aceite-sal-y-tomate",
+      "name": "Tostada multicereal aceite, sal y tomate",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "tostada-multicereal-mantequilla-y-mermelada",
+      "name": "Tostada multicereal mantequilla y mermelada",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "tostada-multicereal-aceite-sal-tomate-y-jamon",
+      "name": "Tostada multicereal aceite, sal, tomate y jamón",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [
+        "contains-meat"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "tostada-aceite-y-sal",
+      "name": "Tostada aceite y sal",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "tostada-aceite-sal-y-tomate",
+      "name": "Tostada aceite, sal y tomate",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "tostada-aceite-sal-tomate-y-jamon",
+      "name": "Tostada aceite, sal, tomate y jamón",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [
+        "contains-meat"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "tostada-crema-de-queso",
+      "name": "Tostada crema de queso",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "tostada-multicereal-aceite-y-sal",
+      "name": "Tostada Multicereal aceite y sal",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "sandwich-de-nueces-y-gorgonzola",
+      "name": "Sándwich de nueces y gorgonzola",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "wrap-egg-beef",
+      "name": "Wrap Egg & Beef",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [
+        "contains-meat"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "wrap-de-salmon-ahumado-y-queso-crema",
+      "name": "Wrap de Salmón Ahumado y Queso Crema",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [
+        "contains-fish"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "sandwich-de-pavo-manzana-y-mayonesa-con-trufa",
+      "name": "Sandwich de pavo, manzana y mayonesa con trufa",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [
+        "contains-meat"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "sandwich-de-mousse-de-pato-y-pollo-con-mermelada-de-arandanos",
+      "name": "Sandwich de mousse de pato y pollo con mermelada de arándanos",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [
+        "contains-meat"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "bagel-de-semillas-de-porchetta-y-queso-ahumado",
+      "name": "Bagel de semillas de porchetta y queso ahumado",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [
+        "contains-meat"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "pulled-chicken-bao-negro",
+      "name": "Pulled chicken Bao negro",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [
+        "contains-meat"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "pulled-pork-bao-blanco",
+      "name": "Pulled pork bao blanco",
+      "section": "comida",
+      "categories": [
+        "sandwiches"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [
+        "contains-meat"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "red-velvet-muffin",
+      "name": "Red Velvet Muffin",
+      "section": "comida",
+      "categories": [
+        "muffins"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "muffin-arandanos",
+      "name": "Muffin Arandanos",
+      "section": "comida",
+      "categories": [
+        "muffins"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "banana-bread",
+      "name": "Banana Bread",
+      "section": "comida",
+      "categories": [
+        "cakes"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "pumpkin-cake-pop",
+      "name": "Pumpkin Cake Pop",
+      "section": "comida",
+      "categories": [
+        "cakes"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": true,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "black-cat-cake-pop",
+      "name": "Black Cat Cake Pop",
+      "section": "comida",
+      "categories": [
+        "cakes"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": true,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "bizcocho-de-limon",
+      "name": "Bizcocho de Limón",
+      "section": "comida",
+      "categories": [
+        "cakes"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "carrot-cake",
+      "name": "Carrot Cake",
+      "section": "comida",
+      "categories": [
+        "cakes"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "cake-chocolate-porcion",
+      "name": "Cake chocolate porción",
+      "section": "comida",
+      "categories": [
+        "cakes"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "cake-pop-birthday",
+      "name": "CAKE POP BIRTHDAY",
+      "section": "comida",
+      "categories": [
+        "cakes"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "cake-pop-polar-bear",
+      "name": "Cake Pop Polar Bear",
+      "section": "comida",
+      "categories": [
+        "cakes"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": true,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "cake-pop-pollito",
+      "name": "Cake Pop Pollito",
+      "section": "comida",
+      "categories": [
+        "cakes"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "glaseado-de-azucar",
+      "name": "Glaseado de azúcar",
+      "section": "comida",
+      "categories": [
+        "glaseados"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "glaseado-estilo-dubai",
+      "name": "Glaseado Estilo Dubai",
+      "section": "comida",
+      "categories": [
+        "glaseados"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "cookie-frambuesa-y-chocolate-blanco",
+      "name": "Cookie Frambuesa Y Chocolate Blanco",
+      "section": "comida",
+      "categories": [
+        "cookies"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "cookie-3-chocolates",
+      "name": "Cookie 3 Chocolates",
+      "section": "comida",
+      "categories": [
+        "cookies"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "cookie-cacao-y-tres-chocolates",
+      "name": "Cookie Cacao Y Tres Chocolates",
+      "section": "comida",
+      "categories": [
+        "cookies"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "cookie-choco-blanco-y-macadamia",
+      "name": "Cookie Choco Blanco Y Macadamia",
+      "section": "comida",
+      "categories": [
+        "cookies"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "meteorites-candy",
+      "name": "Meteorites Candy",
+      "section": "comida",
+      "categories": [
+        "snacks"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "biscotti-de-almendra",
+      "name": "Biscotti de Almendra",
+      "section": "comida",
+      "categories": [
+        "snacks"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "patatas-aceite-de-oliva",
+      "name": "Patatas Aceite de Oliva",
+      "section": "comida",
+      "categories": [
+        "snacks"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "pop-corn-sweet-salty",
+      "name": "Pop Corn Sweet&Salty",
+      "section": "comida",
+      "categories": [
+        "snacks"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "palomitas-sal-himalaya",
+      "name": "Palomitas Sal Himalaya",
+      "section": "comida",
+      "categories": [
+        "snacks"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "pajita-de-cookie",
+      "name": "Pajita de Cookie",
+      "section": "comida",
+      "categories": [
+        "snacks"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "mix-de-frutas-y-frutos-secos",
+      "name": "Mix de frutas y frutos secos",
+      "section": "comida",
+      "categories": [
+        "snacks"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "chocolate-negro-y-crema-de-cacahuete",
+      "name": "Chocolate negro y crema de cacahuete",
+      "section": "comida",
+      "categories": [
+        "snacks"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "cinnamon-bites-sin-gluten",
+      "name": "Cinnamon Bites Sin Gluten",
+      "section": "comida",
+      "categories": [
+        "gluten-free"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [
+        "gluten-free"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "palmeritas-sin-gluten",
+      "name": "Palmeritas sin Gluten",
+      "section": "comida",
+      "categories": [
+        "gluten-free"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [
+        "gluten-free"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "banana-bread-sin-gluten",
+      "name": "Banana Bread sin Gluten",
+      "section": "comida",
+      "categories": [
+        "gluten-free"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [
+        "gluten-free"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "brownie-sin-gluten-y-sin-azucar",
+      "name": "Brownie Sin Gluten y sin azúcar",
+      "section": "comida",
+      "categories": [
+        "gluten-free"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [
+        "gluten-free",
+        "sugar-free"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "muffin-de-vainilla-sin-gluten",
+      "name": "Muffin de vainilla sin gluten",
+      "section": "comida",
+      "categories": [
+        "gluten-free"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [
+        "gluten-free"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "cookie-choco-sin-gluten",
+      "name": "Cookie Choco sin gluten",
+      "section": "comida",
+      "categories": [
+        "gluten-free"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [
+        "gluten-free"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "muffin-vainilla-sin-gluten",
+      "name": "Muffin Vainilla sin gluten",
+      "section": "comida",
+      "categories": [
+        "gluten-free"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [
+        "gluten-free"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "bowl-matcha-chia",
+      "name": "Bowl Matcha Chia",
+      "section": "comida",
+      "categories": [
+        "fruit-and-yoghurt"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "macedonia",
+      "name": "Macedonia",
+      "section": "comida",
+      "categories": [
+        "fruit-and-yoghurt"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "ensalada-fusilli",
+      "name": "Ensalada Fusilli",
+      "section": "comida",
+      "categories": [
+        "ensaladas-y-dips"
+      ],
+      "subgroup": null,
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "cafe-christmas-blend-2027",
+      "name": "Café Christmas Blend 2027",
+      "section": "cafe-en-casa",
+      "categories": [
+        "whole-bean"
+      ],
+      "subgroup": "Medium Roast",
+      "temperature": null,
+      "seasonal": true,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "cafe-christmas-blonde-roast-2027",
+      "name": "Café Christmas Blonde Roast 2027",
+      "section": "cafe-en-casa",
+      "categories": [
+        "whole-bean"
+      ],
+      "subgroup": "Medium Roast",
+      "temperature": null,
+      "seasonal": true,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "cafe-christmas-blend-espresso-roast-2027",
+      "name": "Café Christmas Blend Espresso Roast 2027",
+      "section": "cafe-en-casa",
+      "categories": [
+        "whole-bean"
+      ],
+      "subgroup": "Medium Roast",
+      "temperature": null,
+      "seasonal": true,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "cafe-en-grano-1971-roast-250gr",
+      "name": "Café en Grano 1971 Roast 250gr",
+      "section": "cafe-en-casa",
+      "categories": [
+        "whole-bean"
+      ],
+      "subgroup": "Medium Roast",
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "iced-coffee-blend-250gr",
+      "name": "Iced Coffee Blend 250gr",
+      "section": "cafe-en-casa",
+      "categories": [
+        "whole-bean"
+      ],
+      "subgroup": "Medium Roast",
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "guatemala-antigua",
+      "name": "Guatemala Antigua",
+      "section": "cafe-en-casa",
+      "categories": [
+        "whole-bean"
+      ],
+      "subgroup": "Medium Roast",
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "ethiopia",
+      "name": "Ethiopia",
+      "section": "cafe-en-casa",
+      "categories": [
+        "whole-bean"
+      ],
+      "subgroup": "Medium Roast",
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "colombia-narino",
+      "name": "Colombia Nariño",
+      "section": "cafe-en-casa",
+      "categories": [
+        "whole-bean"
+      ],
+      "subgroup": "Medium Roast",
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "house-blend",
+      "name": "House Blend",
+      "section": "cafe-en-casa",
+      "categories": [
+        "whole-bean"
+      ],
+      "subgroup": "Medium Roast",
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "pike-place-roast",
+      "name": "Pike Place Roast®",
+      "section": "cafe-en-casa",
+      "categories": [
+        "whole-bean"
+      ],
+      "subgroup": "Medium Roast",
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "kenya",
+      "name": "Kenya",
+      "section": "cafe-en-casa",
+      "categories": [
+        "whole-bean"
+      ],
+      "subgroup": "Medium Roast",
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "starbucks-blonde-espresso",
+      "name": "Starbucks Blonde® Espresso",
+      "section": "cafe-en-casa",
+      "categories": [
+        "whole-bean"
+      ],
+      "subgroup": "Medium Roast",
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "sumatra",
+      "name": "Sumatra",
+      "section": "cafe-en-casa",
+      "categories": [
+        "whole-bean"
+      ],
+      "subgroup": "Dark Roast",
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "verona",
+      "name": "Verona",
+      "section": "cafe-en-casa",
+      "categories": [
+        "whole-bean"
+      ],
+      "subgroup": "Dark Roast",
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "espresso-roast",
+      "name": "Espresso Roast",
+      "section": "cafe-en-casa",
+      "categories": [
+        "whole-bean"
+      ],
+      "subgroup": "Dark Roast",
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "espresso-roast-decaf",
+      "name": "Espresso Roast Decaf",
+      "section": "cafe-en-casa",
+      "categories": [
+        "whole-bean"
+      ],
+      "subgroup": "Dark Roast",
+      "temperature": null,
+      "seasonal": false,
+      "tags": [
+        "decaf"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "capsulas-toffee-nut-latte",
+      "name": "Cápsulas Toffee Nut Latte",
+      "section": "cafe-en-casa",
+      "categories": [
+        "capsulas"
+      ],
+      "subgroup": "Medium Roast",
+      "temperature": null,
+      "seasonal": true,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "capsulas-pumpkin-spice",
+      "name": "Cápsulas Pumpkin Spice",
+      "section": "cafe-en-casa",
+      "categories": [
+        "capsulas"
+      ],
+      "subgroup": "Medium Roast",
+      "temperature": null,
+      "seasonal": true,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "capsulas-colombia",
+      "name": "Cápsulas Colombia",
+      "section": "cafe-en-casa",
+      "categories": [
+        "capsulas"
+      ],
+      "subgroup": "Medium Roast",
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "capsulas-pike-place",
+      "name": "Cápsulas Pike Place®",
+      "section": "cafe-en-casa",
+      "categories": [
+        "capsulas"
+      ],
+      "subgroup": "Medium Roast",
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "capsulas-house-blend",
+      "name": "Cápsulas House Blend",
+      "section": "cafe-en-casa",
+      "categories": [
+        "capsulas"
+      ],
+      "subgroup": "Medium Roast",
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "blonde-espresso-roast",
+      "name": "Blonde Espresso Roast",
+      "section": "cafe-en-casa",
+      "categories": [
+        "capsulas"
+      ],
+      "subgroup": "Medium Roast",
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "capsulas-espresso-roast",
+      "name": "Cápsulas Espresso Roast",
+      "section": "cafe-en-casa",
+      "categories": [
+        "capsulas"
+      ],
+      "subgroup": "Dark Roast",
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "capsulas-espresso-decaf",
+      "name": "Cápsulas Espresso Decaf",
+      "section": "cafe-en-casa",
+      "categories": [
+        "capsulas"
+      ],
+      "subgroup": "Dark Roast",
+      "temperature": null,
+      "seasonal": false,
+      "tags": [
+        "decaf"
+      ],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "capsulas-sumatra",
+      "name": "Cápsulas Sumatra",
+      "section": "cafe-en-casa",
+      "categories": [
+        "capsulas"
+      ],
+      "subgroup": "Dark Roast",
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    },
+    {
+      "id": "capsulas-verona",
+      "name": "Cápsulas Verona®",
+      "section": "cafe-en-casa",
+      "categories": [
+        "capsulas"
+      ],
+      "subgroup": "Dark Roast",
+      "temperature": null,
+      "seasonal": false,
+      "tags": [],
+      "sizes": [],
+      "price_eur": null,
+      "calories_kcal": null
+    }
+  ]
+}
